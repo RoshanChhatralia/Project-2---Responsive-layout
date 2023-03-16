@@ -5,25 +5,28 @@
     <title> Mobile-first responsive layout </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
-    <link href="css/normlize.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+<header>
 <nav>
-    <h1> <a href="#"> Roshan Chhatralia </a></h1>
+    <h1> Roshan Chhatralia </h1>
     <ul class="main-nav">
-        <li><a href="#">Home</a></li>
+        <li><a href="#top">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#interests">Interests</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
+</header>
 
 <main> 
     <div class="profile">
-        <img id="profileimg" src="images/responsive-layout-profile.png" alt="Stock profile picture">
-        <div class="profile-box"> 
-            <p id="profiletext"> Hi! I'm Roshan, a front-end developer who loves respondive deisgn and css. I recently finished 
+       <div class="profile-box"> 
+            <img id="profileimg" class="imageitem" src="images/responsive-layout-profile.png" alt="Stock profile picture">
+            <p id="profiletext"> Hi! I'm Roshan, a front-end developer who loves responsive design and css. I recently finished 
             a degree in front-end web development at Treehouse and am excited to put all my skills to use
             </p>
         </div>  
@@ -74,12 +77,37 @@
         </div>
     </div> <!--Profile-->
 
+        <div class="moreaboutme"> 
+            <h2 id="interests"> Interests and Activites </h2>
+            <div class="container-am">
+                <div class="interests">
+                    <h3> Interests</h3>
+                    <ul class="interestsli">
+                        <li> Reading (mainly non-fiction!) </li>
+                        <li> Learning coding </a></li>
+                        <li> Music</li>
+                        <li> Home DIY </li>
+                    </ul>
+                </div>
+                <div class="interests">
+                    <h3> Activities </h3>
+                    <ul class="interestsli">
+                        <li> Bouldering / Climbing </li>
+                        <li> Learning to surf and tennis </a></li>
+                        <li> Hoping to dive more </li>
+                        <li> Squash (formerly competative) </li>
+                    </ul>
+                </div>            
+            </div>
+        </div>
+
+
         <div class="contact">
         <h2 id="contact"> Contact </h2>
             <p> If you're interested in chatting or want more informatoin about what I've been working on, I'd love to hear from you! 
             </p>
             <br>
-            <p> Phone: <strong> +44 7792078281 </strong> 
+            <p> Phone: <strong> +44 7792123456 </strong> 
             </p>
             <br>
             <p> Email: <strong> ro@roshanchhatralia.com </strong>
@@ -90,14 +118,16 @@
 </main>
     <hr>
     <footer>
+        <div class="footerbar">
         <h3> Roshan Chhatralia </h3>
         <ul class="footernav">  
-            <li class="top"> <a href="#"> Back to top </a></li>
-            <li class="full"> <a href="#"> Home </li>
+            <li class="top"> <a href="#top"> Back to top </a></li>
+            <li class="full"> <a href="#top"> Home </a> </li>
             <li class="full"> <a href="#portfolio"> Portfolio </a></li>
+            <li class="full"> <a href="#interests">  Interests </a> </li>
             <li class="full"> <a href="#contact">  Contact </a> </li>
         </ul>
-
+        </div>
     </footer>
 </body>
 </html>
