@@ -140,7 +140,6 @@ body {
   }
 
   .contact {
-    margin-top: -1px;
     padding-top: 1px;
     text-align: center;
     background-color: whitesmoke;
@@ -189,7 +188,11 @@ body {
 
     .moreaboutme h2 {
       Margin: 30px auto 30px;
-    }    
+    }  
+    
+    footer h3 {
+      margin:0;
+    }
   
 
 /* ================================= 
@@ -222,6 +225,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items:start;
     margin: 0 auto;
     width: 80%;
   }
@@ -231,6 +235,7 @@ body {
     width: 50vw;
     text-align: left;
     padding-right: 20px;
+    margin: 0;
   }
 
 
@@ -270,6 +275,15 @@ body {
  
   .footerbar {
     padding: 0 0;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .full {
+    display: inline-block;
+    margin-left:20px
   }
 }
 
@@ -333,7 +347,7 @@ body {
   .container {
     display: flex;
     max-width: 1024px;
-    padding: inherit 0;
+    padding: 0 0;
    }
 
   .col {
@@ -342,15 +356,6 @@ body {
 
   .contact p {
     width: 40vw; 
-  }
-
-  .top {
-    display: none;
-  }
-
-  .full {
-    display: inline-block;
-    margin-left:20px
   }
 
   .moreaboutme h2 {
