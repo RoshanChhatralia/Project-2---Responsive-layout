@@ -34,7 +34,6 @@ body {
     height: 100px;
     background-color: whitesmoke;
     max-width: 1024px;   
-    width: 80%;
     margin: 0 auto; 
   }
   
@@ -161,7 +160,6 @@ body {
 
    footer, footer ul, footer ul {
     text-transform: uppercase;
-    padding: 0 20px;
     font-size: small;
    }
 
@@ -274,7 +272,7 @@ body {
   }
  
   .footerbar {
-    padding: 0 0;
+    padding: 0 20px;
   }
 
   .top {
